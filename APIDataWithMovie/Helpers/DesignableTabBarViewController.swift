@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DesignableTabBarViewController: UITabBarController {
+class DesignableTabBarViewController: UITabBarController, Storyboarded {
     
     // MARK: - View Lifecycle
     override func viewDidLoad() {

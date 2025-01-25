@@ -15,16 +15,30 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="s-letter-logo" translatesAutoresizingMaskIntoConstraints="NO" id="pOB-qY-FiN">
+                                <rect key="frame" x="106.66666666666669" y="149" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="0LE-io-ZQo"/>
+                                    <constraint firstAttribute="width" constant="180" id="ev0-jt-BGo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pOB-qY-FiN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="PCo-IE-KH8"/>
+                            <constraint firstItem="pOB-qY-FiN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yyc-R8-oO2"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="485" y="68"/>
+            <point key="canvasLocation" x="484.73282442748092" y="67.605633802816911"/>
         </scene>
     </scenes>
     <resources>
+        <image name="s-letter-logo" width="47.333332061767578" height="47.333332061767578"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

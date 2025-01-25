@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         /// InitialViewController
-        let initialViewController = HomeScreenViewController.instantiate(storyboard: .base)
+        let initialViewController = DesignableTabBarViewController.instantiate(storyboard: .base)
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = initialViewController
         window?.makeKeyAndVisible()
